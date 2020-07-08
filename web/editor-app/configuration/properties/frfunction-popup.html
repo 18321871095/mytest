@@ -1,0 +1,29 @@
+
+<div class="modal" ng-controller="KisBpmFrFunctionPropertyPopupCtrl">
+    <div class="modal-dialog" >
+        <div class="modal-content" style="margin-left: -120px;width: 900px;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="close()">&times;</button>
+                <h3>{{'PROPERTY.PROPERTY.EDIT.TITLE' | translate:property}}</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row row-no-gutter">
+                    <div class="form-group">
+
+
+                      <!--  <input placeholder="请输入fr函数" style="width: 100%;height: 30px"
+                               ng-model="property.value"  />-->
+           <textarea id="frfunction" rows="15" cols="90" style="font-size: 17px" ng-model="property.value" placeholder="请输入fr函数"></textarea>
+                       <button ng-click="jiaoyan()">校验公式合法性</button>
+                    </div>
+                </div>
+               <!-- <span>会签人:</span><input  ng-model="property.value"  />-->
+
+            </div>
+            <div class="modal-footer">
+                <button ng-click="save()" class="btn btn-primary" translate >ACTION.SAVE</button>
+            </div>
+        </div>
+    </div>
+</div>
+

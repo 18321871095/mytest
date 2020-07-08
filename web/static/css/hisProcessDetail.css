@@ -1,0 +1,43 @@
+ul li{
+    list-style: none;
+    font-size: 16px;color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+
+}
+a:hover{
+    text-decoration: none;
+}
+p{ font-size: 16px;color: #333333;}
+/*公共声明*/
+.tab{ width:100%; margin: 0 auto;}
+.hd{ height: 40px; line-height: 40px; border-bottom: 1px solid #efefef; width: 100%;color: #666;  }
+
+.hd a{
+    line-height: 40px; padding: 0 10px; margin-left: 10px; float: left; text-align: center;  font-size: 16px;
+    border-bottom: 3px solid transparent; box-sizing: border-box;}
+a.active{  border-bottom: 3px solid #3296f5; color:#3296f5;    box-sizing: border-box;}
+.bd{ padding: 10px;}
+.bd-son{ display: none; padding-bottom: 80px;}
+.my-btn-wrap{ width: 100%;position: fixed; box-sizing: border-box; padding: 10px 0;
+    background:rgba(245,247,254,1.0);  z-index: 9999;  left: 0px; bottom: 0;}
+.my-btn{ width: 160px; margin-right: 20px;float: right;}
+.my-btn li{ width:75px; line-height: 25px; font-size: 16px; text-align: center; float: left;
+    box-sizing: border-box; border: 1px solid #fff; background: #fff; border-radius: 5px; margin-left: 10px;}
+.my-btn li:first-child{ margin-left: 0;}
+.my-btn li a{ color: #3296f5;}
+.my-btn li.actived{ background: #3296f5; }
+.my-btn li.actived a{ color: #fff}
+
+.opinion{ width:490px; margin-left: 275px; margin-top: 20px; }
+.opinion-title{ font-size: 16px; padding: 10px 0; color: #333;  font-weight: 500; position: relative; padding-left: 13px; top: 0;}
+.opinion-title:before{ width: 3px; height: 16px; background:#3296f5; content: ""; display: block;
+    position: absolute; top: 13px; left: 0;}
+.opinion textarea{ width: 100%; height: 120px; border: 1px solid #999; box-sizing: border-box; padding: 5px; font-size: 14px;}
+
+.appendix{ width:490px; margin-left: 275px; margin-top: 20px; }
+.appendix-title{ font-size: 16px; padding: 10px 0; color: #333;  font-weight: 500; position: relative; padding-left: 13px; top: 0;}
+.appendix-title:before{ width: 3px; height: 16px; background:#3296f5; content: ""; display: block;
+    position: absolute; top: 13px; left: 0;}

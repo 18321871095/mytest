@@ -1,0 +1,45 @@
+
+ul li{
+    list-style: none;
+    font-size: 16px;color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+
+}
+a:hover{
+    text-decoration: none;
+}
+p{ font-size: 16px;color: #333333;}
+/*公共声明*/
+.tab{ width: 100%; margin: 0 auto;}
+.hd{ height: 40px; line-height: 40px; width: 500px; margin: 0 auto;   color: #666;  }
+
+.hd a{ float: left; display: inline-block;
+    margin-left:100px; line-height: 40px; text-align: center;  font-size: 16px;
+    border-bottom: 3px solid #666; box-sizing: border-box;}
+a.active{  border-bottom: 3px solid #3296f5; color:#3296f5;    box-sizing: border-box;}
+.bd{ padding: 10px;}
+.bd-son{ display: none;}
+
+.tab-table{ width: 100%; box-sizing: border-box; margin-top: 20px; font-size: 14px; text-align: left; }
+.tab-table tr{padding-left: 10px; box-sizing: border-box; border-bottom: 1px solid #efefef;  line-height: 40px;}
+.tab-table th{ background:#f5f7fe; color: #333; font-size: 14px; font-weight: 500; text-align: left; padding-left: 10px; box-sizing: border-box; border-left: 1px solid #efefef; }
+.tab-table th:first-child{ border-left: none;}
+.tab-table td{padding-left: 10px; color: #666; box-sizing: border-box; border-bottom: 1px solid #efefef; border-left: 1px solid #efefef;}
+.tab-table tr td:last-child{ border-right: 1px solid #efefef;}
+
+.page-list{ width: 180px; margin-top: 20px; margin-left: 750px;}
+.page-list li{ float: left; margin-left: 10px; line-height: 30px; font-size: 14px;}
+.page-list li a{ color: #999;}
+.page-list li a.actived{ color:#3296f5; }
+.page-list-num{ width: 30px; height: 30px; text-align: center; line-height: 30px; color: #fff; box-sizing: border-box; border-radius: 50%; background:#3296f5; }
+.page-list li.page-list-num a{ color: #fff;}
+.myspan{
+    cursor: pointer;
+}
+.myspan:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,8 @@
+
+.tab-table{ width: 100%; box-sizing: border-box; margin-top: 20px; font-size: 14px; text-align: left; }
+.tab-table tr{padding-left: 10px; box-sizing: border-box; border-bottom: 1px solid #efefef;  line-height: 40px;}
+.tab-table th{ background:#f5f7fe; color: #333; font-size: 14px; font-weight: 500; text-align: left; padding-left: 10px; box-sizing: border-box; border-left: 1px solid #efefef; }
+.tab-table th:first-child{ border-left: none;}
+.tab-table td{padding-left: 10px; color: #666; box-sizing: border-box; border-bottom: 1px solid #efefef; border-left: 1px solid #efefef;}
+.tab-table tr td:last-child{ border-right: 1px solid #efefef;}
+

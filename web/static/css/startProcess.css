@@ -1,0 +1,23 @@
+ul li{
+    list-style: none;
+    font-size: 16px;color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+p{ font-size: 16px;color: #333333;}
+/*公共声明*/
+
+.listing{ width: 380px;  background: #fff;
+    margin:10px 10px;    float: left}
+.listing-title{ font-size: 16px; padding: 10px 0; color: #333; border-bottom: 1px solid #efefef; font-weight: 500; position: relative; padding-left: 15px; top: 0;}
+.listing-title:before{ width: 5px; height: 16px; background:#3296f5; content: ""; display: block;
+    position: absolute; top: 13px; left: 0;}
+.listing-con{ width: 100%; box-sizing: border-box; padding: 10px;  }
+.listing-con li{ width: 100%; line-height: 1.8;}
+.listing-con li a{ font-size: 16px; color: #3296f5;}

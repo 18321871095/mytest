@@ -1,0 +1,155 @@
+
+ * { touch-action: pan-y; } 
+.mui-bar-nav {
+    top: 0;
+	background: #fff;
+    -webkit-box-shadow: 0 0 0 #ccc;
+    box-shadow: 0 0 0 #ccc;
+}
+input[type=search] {
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 34px;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+    background-color: #fefefe;
+	color: #333;
+}
+#searchInput{ margin-bottom: 0; background: #f7f7f7;}
+.searchBox{ width: 100%; background: #fff; padding: 10px 15px;}
+.mui-search.mui-active:before {
+    font-size: 20px;
+    right: auto;
+    left: 5px;
+	top: 25px;
+    display: block;
+    margin-right: 0;
+}
+.mui-search:before {
+    font-family: Muiicons;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    display: none;
+    margin-top: -18px;
+    margin-right: 31px;
+    content: '\e466';
+}
+
+
+/* 搜索结束 */
+
+.newFlowTitle{ font-size: 14px; color: #538de3; font-weight: 500; position: relative; width: 100%; padding: 5px 15px;}
+.newFlowTitleSpan{ content: ""; width: 4px; height: 15px; background: #538de3; display: block; position: absolute; top: 5px; left: 15px;}
+.newFlowTitleTit{ margin-left: 10px;}
+.newFlow .mui-table-view:before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height:0;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+    top: -1px;
+}
+.newFlow .mui-table-view:after {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height:0;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+    top: -1px;
+}
+.newFlow .mui-table-view-cell {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0 0;
+    padding: 8px 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+	font-size: 14px;
+	color: #333;
+}
+.newFlow .mui-table-view-cell:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+
+/* processDetails开始 */
+.processDetails{ /*border: 1px solid red;*/ width: 100%; background: #fff; /*margin-top: 10px;*/}
+.processDetailsBtnBox{ margin-top: 10px; width: 100%; height: 50px; background: #fff; box-shadow: 2px 2px 22px 2px rgba(11,11,11,0.3); position: fixed; right: 0; bottom: 0; z-index: 9999999;}
+.processDetailsBtn{ width: 80%; margin-left: 10%;}
+.processDetailsBtnSubmit{ width: 35%; margin-left: 10%; margin-top: 10px; height: 30px; font-size: 14px; background: #538de3; color: #fff; border: none; box-sizing: border-box; }
+.processDetailsBtnKeep{ width: 35%; margin-left: 10%; margin-top: 10px; height: 30px; font-size: 14px; color: #538de3; border: 1px solid #538de3; box-sizing: border-box; }
+.processDetailsBtnBoxTextareaBox{ background: #fff; padding: 10px; box-sizing: border-box; margin-top: 10px; margin-bottom:70px;}
+.processDetailsBtnBoxTextarea{ border: 1px solid #efefef; margin-bottom: 0; box-sizing: border-box; font-size: 14px; color: #666;}
+/* toDo开始 */
+.toDo h4{ color: #538de3; font-size: 18px; font-weight: 500;}
+.toDo h5{  color: #666; font-size: 14px;}
+.toDoBox{margin-top: 10px;}
+.toDo span{ color: #999; font-size: 14px; margin-left: 5px;}
+.toDo .mui-table-view-cell:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+/* toDODetails开始 */
+.toDoDetails{ width: 100%;/* height: 700px;*/ background: #fff; /*margin-top: 10px;*/}
+.toDoDetailsBtnBox{ margin-top: 10px; width: 100%; height: 50px; background: #fff; box-shadow: 2px 2px 22px 2px rgba(11,11,11,0.3); position: fixed; right: 0; bottom: 0; z-index: 9999999;}
+.toDoDetailsBtn{ width: 100%; background: #fff; }
+.toDoDetailsBtn button{ /*width: 16%; */margin-left: 2.5%; margin-top: 10px; height: 30px; font-size: 14px; background: #538de3; color: #fff; border: none; box-sizing: border-box; }
+.toDoDetailsBtn button:nth-child(2){ background: green;}
+.toDoDetailsBtn button:nth-child(3){ background:red;}
+.toDoDetailsBtn button:nth-child(4){ background:orange;}
+.toDoDetailsBtnBoxTextareaBox{ background: #fff; padding: 10px; box-sizing: border-box; margin-top: 10px; /* margin-bottom:70px; */}
+.toDoDetailsBtnBoxTextarea{ border: 1px solid #efefef; margin-bottom: 0; box-sizing: border-box; font-size: 14px; color: #666;}
+.toDoDetails2{  width: 100%;}
+.toDoDetails2List{background: #fff; width: 100%; padding: 0 0; list-style: none; margin: 0 0 70px;}
+.toDoDetails2List li{ width: 100%; border-bottom: 1px solid #efefef; margin: 5px 0; padding: 0 10px; font-size: 14px; color: #666; margin: 0; padding: 0; list-style: none;}
+.toDoDetails2List li span{ margin-left: 20px; }
+.toDoDetails2List li span:first-child{ margin-left: 0;}
+
+
+/* tab */
+
+.mui-segmented-control .mui-control-item.mui-active {
+    color: #fff;
+    background-color: #538de3;
+}
+.mui-segmented-control .mui-control-item {
+    line-height: 38px;
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #538de3;
+    border-color: #538de3;
+    border-left: 1px solid #538de3;
+}

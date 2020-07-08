@@ -1,0 +1,5 @@
+<span ng-if="property.value.assignment.assignee &&  (property.value.assignment.assignee.indexOf('${Assgin_')==-1  && property.value.assignment.assignee.indexOf('${list')==-1)">{{'PROPERTY.ASSIGNMENT.ASSIGNEE_DISPLAY' | translate:property.value.assignment }} </span>
+<span id="myCandidateUsers" ng-if="property.value.assignment.candidateUsers.length > 0">{{'PROPERTY.ASSIGNMENT.CANDIDATE_USERS_DISPLAY' | translate:property.value.assignment.candidateUsers[0]}} </span>
+<span ng-if="(!property.value.assignment.assignee &&
+(!property.value.assignment.candidateUsers || property.value.assignment.candidateUsers.length == 0)
+ && (!property.value.assignment.candidateGroups || property.value.assignment.candidateGroups.length == 0)) || property.value.assignment.assignee.indexOf('${Assgin_')>-1 || property.value.assignment.assignee.indexOf('${list')>-1" translate>PROPERTY.ASSIGNMENT.EMPTY</span>
